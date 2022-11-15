@@ -60,7 +60,6 @@ function App() {
         const data = await getSpeciesData();
         setSpecies(data);
       } catch (e) {
-        setLoading(false);
         console.error(e);
       }
     };
